@@ -1,3 +1,5 @@
+TARGET = template
+
 CC = gcc
 CFLAGS = -g -Wall 
 
@@ -11,7 +13,7 @@ INC = inc
 INCLUDES = -I$(INC)
 
 BIN_DIR = bin
-BIN = $(BIN_DIR)/template
+BIN = $(BIN_DIR)/$(TARGET)
 
 all: $(BIN)
 
