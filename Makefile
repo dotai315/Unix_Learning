@@ -1,4 +1,4 @@
-TARGET = template
+TARGET = file_io
 
 CC = gcc
 CFLAGS = -g -Wall 
@@ -36,7 +36,7 @@ dir:
 	mkdir inc src obj bin 
 	touch $(INC)/main.h $(SRC)/main.c
 
-creat-project:
+create-project:
 	mdkir $(BIN)
 	cp ./Makefile ./$(BIN)/
 
